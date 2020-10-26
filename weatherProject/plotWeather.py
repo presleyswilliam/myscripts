@@ -21,7 +21,7 @@ getData(filePath)
 plt.figure(1)   #plotting temp(F) vs date graph
 xArray = range(0, len(tempArray))
 plt.plot(dateArray, tempArray)
-plt.title("Weather Temps - TESTING SERVICE CHANGE")
+plt.title("Weather Temps")
 plt.xlabel("Date")
 plt.ylabel("Temperature (F)")
 plt.show()
