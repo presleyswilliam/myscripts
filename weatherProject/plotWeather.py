@@ -14,7 +14,7 @@ def getData(filePath):
             dateArray.append(datetime_object)
     return tempArray
 
-filePath = "/home/pi/myscripts/weatherProject/weatherData.txt"
+filePath = "weatherData.txt"
 getData(filePath)
 
 
